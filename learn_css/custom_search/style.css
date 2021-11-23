@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #333;
+}
+.header h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.header input{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.checkedbox:focus ~ content{
+    display: block;
+}
+.content{
+    margin-left: 150px;
+    /* display: none; */
+
+}
+.content__box{
+    margin-top: 20px;
+}
+.content__box i{
+    font-size: 20px;
+    color: green;
+}
+.name{
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="/front_end/youtube_project/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="overside"></div>
+            <button class="btn" onclick="leaving()" >Log in</button>
+            <button class="btn" onclick="leave()">Register</button>
+        </div>
+        <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google"></i>
+        </div>
+        <form id="login" action="#">
+            <input type="text" placeholder="User Name" class="input">
+            <input type="password" placeholder="Enter password" class="input">
+            <div class="checked">
+                <input type="checkbox">
+                <span>Remember Password</span>
+            </div>
+            <button class="btn1">Login</button>
+        </form>
+        <form id="register" action="#">
+            <input type="text" placeholder="User Name" class="input">
+            <input type="password" placeholder="Enter password" class="input">
+            <input type="text" placeholder="Email" class="input">
+            <div class="checked">
+                <input type="checkbox">
+                <span>Remember Password</span>
+            </div>
+            <button class="btn1">Register</button>
+        </form>
+    </div>
+    <script>
+        var a=document.querySelector(".overside");
+        var b=document.getElementById("login");
+        var c=document.getElementById("register");
+        function leave(){
+            a.style.left="155px"
+            b.style.left="-256px"
+            c.style.left="0px"
+        }
+        function leaving(){
+            a.style.left="24px"
+            b.style.left="0px"
+            c.style.left="252px"
+        }
+    </script>
+</body>
+</html>

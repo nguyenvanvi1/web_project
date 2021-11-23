@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="/front_end/youtube_project/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="/thuvien/libary.css">
+    <link rel="stylesheet" href="/thuvien/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input id="check" type="checkbox" class="checking">
+    <div class="control__menu" for="check"><i class="fas fa-bars"></i></div>
+    <label class="blur" for="check"></label>
+    <div class="navbar__menu">
+        <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+                <a href="">Theo Dõi</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Trang Chủ</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Lịch Sử</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Thể Loại</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Quốc Gia</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Phim Lẻ</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Phim Bộ</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Năm</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Theo Dõi</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Phim Chiếu Rạp</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Đăng Ký</a>
+            </li>
+            <li class="navbar__menu-item">
+                <a href="">Đăng Nhập</a>
+            </li>
+        </ul>
+        
+    </div>
+    <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+    <div class="header">
+        <div class="grid wide header__nav">
+                <a href="" class="header__nav-link">
+                    <img src="/web_project/img/logo.png" alt="" class="header__nav-logo">
+                </a>
+                <div class="header__search">
+                    <form action="#" class="form__header">
+                        <input type="text" placeholder="Nhập tên phim, diễn viên..." class="form__header-input">
+                        <i class="fas fa-search"></i>
+                    </form>
+                </div>
+                <label class="control__menu" for="check"><i class="fas fa-bars"></i></label>
+                <div class="header__button">
+                    <a href="/learn_css/form_login/index.html"><button class="btn" ><i class="far fa-registered"></i>Đăng ký</button></a>
+                    <button class="btn"><i class="fas fa-sign-in-alt"></i>Đăng nhập</button>
+                </div>
+        </div>
+        <div class="row menu">
+            <div class="category">
+                <ul class="category__list">
+                    <li class="category__item category__item-1">
+                        <a href="" class="category__link"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">THEO DÕI</a>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">LỊCH SỬ</a>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">ALBUM</a>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">THỂ LOẠI<i class="fas fa-caret-down"></i></a>
+                        <div class="category__item-hover1">
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">TVB</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hành Động</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hài Hước</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hình Sự</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phiêu Liêu</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Gia Đình</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Thể Thao</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Lịch Sử</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Cổ Trang</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Trailer</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Đam Mỹ - Bách Hợp</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Võ Thuật - Võ Sư</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hoạt Hình</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Kinh Dị</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Bí Ẩn</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Cao Bồi </a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Truyền Hình </a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Tài Liệu</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Học Đường</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim 18+</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Tâm Lí - Tình Cảm</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Viễn Tưởng</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Chiến Tranh</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Khoa Học</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Âm Nhạc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">TV - Show</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Xuyên Không</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Y Khoa - Bác Sĩ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">QUỐC GIA<i class="fas fa-caret-down"></i></a>
+                        <div class="category__item-hover2">
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Ấn Độ</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Châu Âu</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hàn Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Mĩ</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Pháp</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Trung Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Ý</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Anh</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Đài Loan</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hồng Công</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Nga</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Tây Ban Nha</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Úc</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Canada</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Đức</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Hàn Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Nhật Bản</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Việt Nam</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Thái Lan</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Khác</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">PHIM LẺ<i class="fas fa-caret-down"></i></a>
+                        <div class="category__item-hover3">
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Hàn Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Hồng Công</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Việt Nam</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Trung Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Mỹ</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Thái Lan</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Đài Loan</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Châu Âu</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim lẻ Nhật Bản</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">PHIM BỘ<i class="fas fa-caret-down"></i></a>
+                        <div class="category__item-hover4">
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Châu Âu</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Hàn Quốc</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Hồng Công</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Việt Nam</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Nhật Bản</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Đài Loan</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Mỹ</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Thái Lan</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">Phim bộ Trung Quốc</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">NĂM<i class="fas fa-caret-down"></i></a>
+                        <div class="category__item-hover5">
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2021</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2020</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2019</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2018</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2017</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2016</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2015</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2014</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2013</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2012</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2011</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2010</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2009</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2008</a>
+                                </li>
+                            </ul>
+                            <ul class="category__hover-list">
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2007</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2006</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2005</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2004</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2003</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2002</a>
+                                </li>
+                                <li class="category__hover-item">
+                                    <a href="" class="category__hover-link">2001</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="category__item">
+                        <a href="" class="category__link">PHIM CHIẾU RẠP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="banner__bottom">
+        <div class="grid wide">
+            <div class="row">
+                <div class="banner">
+                    <a href=""><img src="/web_project/img/banner.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="grid wide up">
+            <div class="row updown">
+                <div class="col l-8 close__left m-12 c-12">   
+                    <div class="image-slider">
+                        <div class="image-item">
+                            <a href="">
+                                <img src="/web_project/img/12c.png  " alt="" class="image">
+                            </a>
+                        </div>
+                        <div class="image-item">
+                            <a href="">
+                                <img src="/web_project/img/02.jpg" alt="" class="image">
+                            </a>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="/web_project/img/luff.jpg" alt="" class="image"></a>
+                        </div>
+                        <div class="image-item">
+                            <a href=""><img src="/web_project/img/conan.jpg" alt="" class="image"></a>
+                        </div>
+                    </div>
+                    <div class="block__film">
+                        <ul class="block__film-list">
+                            <li class="block__film-item">
+                                <h2>Phim Bộ Mới</h2>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">ALL</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link"><Table>Trung Quốc</Table></a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">Hàn Quốc</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">Thái Lan</a>
+                            </li>
+                        </ul>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Hộc Châu Phu Nhân">
+                                        <img src="/web_project/img/1.jpg" alt="" class="image-film">
+                                        <h3>Hộc Châu Phu Nhân</h3>
+                                        <p>Novoland: Pearl Eclipse (2020)
+                                        </p>
+                                        <label class="box">Tập 22</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film " title="Đương Gia Chủ Mẫu">
+                                        <img src="/web_project/img/poster.jpg" alt="" class="image-film">
+                                        <h3>Đương Gia Chủ Mẫu</h3>
+                                        <p>Marvelous Women (2021)</p>
+                                        <label class="box">Tập 22</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Sam Sam Đến Rồi">
+                                        <img src="/web_project/img/2.jpg" alt="" class="image-film">
+                                        <h3>Sam Sam Đến Rồi</h3>
+                                        <p>Bos And Me (2021)</p>
+                                        <label class="box">Tập 16</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Phương Trình Tình Yêu">
+                                        <img src="/web_project/img/3.jpg" alt="" class="image-film">
+                                        <h3>Phương Trình Tình Yêu</h3>
+                                        <p>Melancholia</p>
+                                        <label class="box">Tập 4</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Những Qúy Cô Say Xỉn">
+                                        <img src="/web_project/img/4.jpg" alt="" class="image-film">
+                                        <h3>Những Qúy Cô Say Xỉn</h3>
+                                        <p>Work Later, Drink Now</p>
+                                        <label class="box">Tập 9</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Khi Màn Đêm Gợn Sóng">
+                                        <img src="/web_project/img/5.jpg" alt="" class="image-film">
+                                        <h3>Khi Màn Đêm Gợn Sóng</h3>
+                                        <p>Love At Night (2021)</p>
+                                        <label class="box">Tập 16</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Hình Bóng Của Tôi">
+                                        <img src="/web_project/img/6.jpg" alt="" class="image-film">
+                                        <h3>Hình Bóng Của Tôi</h3>
+                                        <p>Reflection Of You (2021)</p>
+                                        <label class="box">Tập 11</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Nhất Kiến Khuynh Tâm">
+                                        <img src="/web_project/img/7.jpg" alt="" class="image-film">
+                                        <h3>Nhất Kiến Khuynh Tâm</h3>
+                                        <p>Fall In Love (2021)</p>
+                                        <label class="box">Tập 18</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="The King's Affection">
+                                        <img src="/web_project/img/8.jpg" alt="" class="image-film">
+                                        <h3>Luyến Mộ</h3>
+                                        <p>The King's Affection (2021)</p>
+                                        <label class="box">Tập 12</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Mộ Nam Chi">
+                                        <img src="/web_project/img/9.jpg" alt="" class="image-film">
+                                        <h3>Mộ Nam Chi</h3>
+                                        <p>Rebirth For You (2021)</p>
+                                        <label class="box">Tập 36</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Thanh Tra Koo">
+                                        <img src="/web_project/img/10.jpg" alt="" class="image-film">
+                                        <h3>Thanh Tra Koo</h3>
+                                        <p>Inspector Koo (2021)</p>
+                                        <label class="box">Tập 5</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Thanh Tra Koo">
+                                        <img src="/web_project/img/11.jpg" alt="" class="image-film">
+                                        <h3>Thanh Tra Koo</h3>
+                                        <p>The Red Sleeve (2021)</p>
+                                        <label class="box">Tập 5</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="">
+                                        <img src="/web_project/img/12.jpg" alt="" class="image-film">
+                                        <h3>Cổ Tay Áo Màu Đỏ</h3>
+                                        <p>Inspector Koo</p>
+                                        <label class="box">Tập 5</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/13.jpg" alt="" class="image-film">
+                                        <h3>Nắm Giữ Sinh Mệnh</h3>
+                                        <p>Happiness (2021)</p>
+                                        <label class="box">Tập 3</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Nguyên Vọng Trí Mạng">
+                                        <img src="/web_project/img/14.jpg" alt="" class="image-film">
+                                        <h3>Nguyên Vọng Trí Mạng</h3>
+                                        <p>Wisher (2021)</p>
+                                        <label class="box">Tập 10</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film" title="Đương Gia Chủ Mẫu">
+                                        <img src="/web_project/img/15.jpg" alt="" class="image-film">
+                                        <h3>Đương Gia Chủ Mẫu</h3>
+                                        <p>Marvelous Women (2021)</p>
+                                        <label class="box">Tập 22</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__film">
+                        <ul class="block__film-list">
+                            <li class="block__film-item">
+                                <h2>Phim Lẻ Mới</h2>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">ALL</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link"><Table>Chiếu Rạp</Table></a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">Hành Động</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">Cổ Trang</a>
+                            </li>
+                        </ul>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/16.jpg" alt="" class="image-film">
+                                        <h3>Cặp Bài Trùng Movie</h3>
+                                        <p>Kyou Kara Ore Wa!!</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/17.jpg" alt="" class="image-film">
+                                        <h3>Venom 2: Đối Mặt Tử Thù</h3>
+                                        <p>Let There Be Carnage</p>
+                                        <label class="box">Bản CAM</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/18.jpg" alt="" class="image-film">
+                                        <h3>Hố Sụt</h3>
+                                        <p>Sinkkhole (2021)</p>
+                                        <label class="box">FHD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/19.jpg" alt="" class="image-film">
+                                        <h3>Sát Nhân Halloween</h3>
+                                        <p>Halloween Kills (2021)</p>
+                                        <label class="box">FHD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/20.jpg" alt="" class="image-film">
+                                        <h3>Nộ Hỏa</h3>
+                                        <p>Raging Fire (2021)</p>
+                                        <label class="box">Hoàn Tất</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/21.jpg" alt="" class="image-film">
+                                        <h3>Love Is War (Live Action)</h3>
+                                        <p>Love Is War (Live Action)</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/22.jpg" alt="" class="image-film">
+                                        <h3>Ngạ Qủy Vùng Tokyo</h3>
+                                        <p>Tokyo Ghoul S</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/24.jpg" alt="" class="image-film">
+                                        <h3>Bố Già (Bản Điện Ảnh)</h3>
+                                        <p>Trấn Thành (2021)</p>
+                                        <label class="box">FHD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/25.jpg" alt="" class="image-film">
+                                        <h3>Ngạ Qủy Vùng Tokyo</h3>
+                                        <p>Tokyo Ghoul S (2021)</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/26.jpg" alt="" class="image-film">
+                                        <h3>Avatar 2</h3>
+                                        <p>Avatar 2 (2021)</p>
+                                        <label class="box">HD Trailer</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/27.jpg" alt="" class="image-film">
+                                        <h3>Bánh Mỹ 9: Quy Tắc Dành Cho Nữ</h3>
+                                        <p>American Pie Present</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/28.jpg" alt="" class="image-film">
+                                        <h3>Bánh MỸ 3: Đám Cưới Kiểu Mỹ</h3>
+                                        <p>American Pie 3</p>
+                                        <label class="box">HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block__film">
+                        <ul class="block__film-list">
+                            <li class="block__film-item">
+                                <h2>Hoạt Hình Mới</h2>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">ALL</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link"><Table>Anime</Table></a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">One Piece</a>
+                            </li>
+                            <li class="block__film-item">
+                                <a href="" class="block__film-link">HaiKyuu</a>
+                            </li>
+                        </ul>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/001.jpg" alt="" class="image-film">
+                                        <h3>Tuyệt Thế Võ Thần (Phần 3)</h3>
+                                        <p>Tuyệt Thế Võ Thần 3 (2021)</p>
+                                        <label class="box">Tập 53</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/002.jpg" alt="" class="image-film">
+                                        <h3>Arcane: Liên Minh Huyền Thoại</h3>
+                                        <p>League Of Legend</p>
+                                        <label class="box">Full 9/9</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/003.jpg" alt="" class="image-film">
+                                        <h3>Yêu Thần KÝ</h3>
+                                        <p>Demon Gods</p>
+                                        <label class="box">Tập 181</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/004.jpg" alt="" class="image-film">
+                                        <h3>Pocket Monsters</h3>
+                                        <p>Pocket Monsters (2019)</p>
+                                        <label class="box">Tập 88</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/005.jpg" alt="" class="image-film">
+                                        <h3>Liệt Hỏa Kiêu Sầu</h3>
+                                        <p>Drowing Sorrows</p>
+                                        <label class="box">Tập 8</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/006.jpg" alt="" class="image-film">
+                                        <h3>Tà Vương Truy Thê (Phần 3)</h3>
+                                        <p>Xie Wang Zhui Qi 3</p>
+                                        <label class="box">Tập 9</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/007.jpg" alt="" class="image-film">
+                                        <h3>Manh Thê Thực Thần (Phần 2)</h3>
+                                        <p>Meng Qi Shi Shen</p>
+                                        <label class="box">Tập 8</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/008.jpg" alt="" class="image-film">
+                                        <h3>Cuồng Thần Ma Tôn</h3>
+                                        <p>Mad Demon Lord (2021)</p>
+                                        <label class="box">Tập 62</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/009.jpg" alt="" class="image-film">
+                                        <h3>Takt Op Destiny</h3>
+                                        <p>Hepburn</p>
+                                        <label class="box">Tập 7</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/0010.jpg" alt="" class="image-film">
+                                        <h3>Cửu Thiên Huyền Đế Quyết</h3>
+                                        <p>Cửu Thiên Huyền Đế Quyết (2020)</p>
+                                        <label class="box">Tập 30</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/0011.jpg" alt="" class="image-film">
+                                        <h3>Cô Gái Gặp Gỡ Những Điều Kì Lạ</h3>
+                                        <p>Deji Meets Girl (2021)</p>
+                                        <label class="box">Tập 8</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/0012.jpg" alt="" class="image-film">
+                                        <h3>Đương Gia Chủ Mẫu</h3>
+                                        <p>Marvelous Women (2021)</p>
+                                        <label class="box">Tập 22</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row down">
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/03.png" alt="" class="image-film">
+                                        <h3>One Pice</h3>
+                                        <p>Hoạt Hình Phiêu Liêu</p>
+                                        <label class="box">Tập 1200</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/01.jpg" alt="" class="image-film">
+                                        <h3>Conan</h3>
+                                        <p>Hoạt Hình Trinh Thám</p>
+                                        <label class="box">Tập 1026</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/02.jpg" alt="" class="image-film">
+                                        <h3>Haikyuu</h3>
+                                        <p>Hoạt Hình Thể Thao (Phần 1)</p>
+                                        <label class="box">Full 15/15</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-3 m-4 c-6 ">
+                                <a href="">
+                                    <div class="slider__film">
+                                        <img src="/web_project/img/12c1.jpg" alt="" class="image-film">
+                                        <h3>Thanh Xuân 12C1</h3>
+                                        <p>Hoạt Hình Học Đường</p>
+                                        <label class="box">Full HD</label>
+                                        <span><i class="far fa-play-circle"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-12 c-12 close__right">
+                    <div class="content__right">
+                        <div class="box1">
+                            <h2>Phim đang theo dõi</h2>
+                            <a href="">Xem tất cả</a>
+                        </div>
+                        <div class="box2">
+                            <div class="box2__header">
+                                <h2>Lịch sử xem phim</h2>
+                                <a href="">Xem tất cả</a>
+                            </div>
+                            <h3>Bạn chưa có lịch sử xem phim</h3>
+                        </div>
+                        <div class="box3">
+                            <div class="box3__header">
+                                <a href="" class="box3__header-btn">TOP NGÀY</a>
+                                <a href="" class="box3__header-btn">TOP TUẦN</a>
+                                <a href="" class="box3__header-btn"> TOP THÁNG</a>
+                            </div>
+                            <ul class="box3__list">
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>1</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/05.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Khi Màn Đêm Gợn Sóng</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 16</span>
+                                                        <span><i class="far fa-eye"></i>30.206</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>2</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/item.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Nhất Kiến Khuynh Tâm</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 18</span>
+                                                        <span><i class="far fa-eye"></i>27.014</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>3</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/08.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Hộc Châu Phu Nhân</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 22</span>
+                                                        <span><i class="far fa-eye"></i>23.391</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>4</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/09.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Khuyển Dạ Xoa</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Full 193/193</span>
+                                                        <span><i class="far fa-eye"></i>10.615</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>5</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/010.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Thợ Săn Tí Hon</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Full 148/148</span>
+                                                        <span><i class="far fa-eye"></i>9.629</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>6</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/011.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Venom 2: Đối Mặt Tử Thù</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Bản Cam</span>
+                                                        <span><i class="far fa-eye"></i>6.046</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>7</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/012.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Đấu La Đại Lục 3D</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 183</span>
+                                                        <span><i class="far fa-eye"></i>4.091</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>8</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/013.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Sam Sam Đến Rồi</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 16</span>
+                                                        <span><i class="far fa-eye"></i>3.880</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>9</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/014.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Mộ Nam Chi</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Tập 36</span>
+                                                        <span><i class="far fa-eye"></i>3.759</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <h1>10</h1>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/015.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Chỉ Là Quan Hệ Hôn Nhân</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Full 24/24</span>
+                                                        <span><i class="far fa-eye"></i>3.44</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div class="box4">
+                            <div class="box4__header">
+                                <h2>Phim mới sắp chiếu<h2>
+                                <a href="">Xem tất cả</a>
+                            </div>
+                            <ul class="box4__list">
+                                    <li class="box3__item none">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img1.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Avatar 2</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>HD Trailer</span>
+                                                        <span><i class="far fa-eye"></i>605.069</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img2.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Dư Sinh Xin Chỉ Giáo Nhiều Hơn</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>HD Trailer</span>
+                                                        <span><i class="far fa-eye"></i>431.673</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img3.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Bóng Đè: Giờ Lành Đã Điểm</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>HD Trailer</span>
+                                                        <span><i class="far fa-eye"></i>275.649</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img4.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Oyabaka Seishun Hakusho</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>72.482</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img5.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Nguy Cơ Tiên Sinh</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>124.501</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img6.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Lương Ngôn Tả Ý</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>97.357</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img7.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Kính Song Thành</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>179.833</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/imh8.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Thanh Trâm Hành</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>218.751</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img9.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Mộc Lan: Hoàng Không Xuất Thế</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>56.205</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="box3__item">
+                                        <a href="" class="box3__link">
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/img10.jpg" alt="">
+                                                <div class="box3__icon">
+                                                    <h3>Quốc Tử Giám Có Một Nữ Đệ Tử</h3>
+                                                    <div class="box3__icon-eye">
+                                                        <span>Trailer</span>
+                                                        <span><i class="far fa-eye"></i>468.698</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div class="box5">
+                            <div class="box5__header">
+                                <h2>Bình luận mới<h2>
+                            </div>
+                            <ul class="box5__list">
+                                    <li class="box3__item none">
+                                            <div class="name-film">
+                                                <i class="fas fa-film"></i>
+                                                <a href="">Kính Song Thành</a>
+                                            </div>
+                                            <div class="box3__link-img">
+                                                <img src="/web_project/img/p1.jpg" alt="">
+                                                <div class="box5__icon">
+                                                    <div class="box5__icon-eye">
+                                                        <a href="">Duy Vụ</a>
+                                                        <span><i class="far fa-clock"></i>  1 ngày</span>
+                                                    </div>
+                                                    <p>Phim khi nào ra z mn</p>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li class="box3__item none">
+                                        <div class="name-film">
+                                            <i class="fas fa-film"></i>
+                                            <a href="">Khi Màn Đêm Gợn Sóng</a>
+                                        </div>
+                                        <div class="box3__link-img">
+                                            <img src="/web_project/img/p2.png" alt="">
+                                            <div class="box5__icon">
+                                                <div class="box5__icon-eye">
+                                                    <a href="">Anh Nguyễn</a>
+                                                    <span><i class="far fa-clock"></i>  3 ngày</span>
+                                                </div>
+                                                <p>Má phim chán vậy</p>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li class="box3__item none">
+                                    <div class="name-film">
+                                        <i class="fas fa-film"></i>
+                                        <a href="">Avatar 2</a>
+                                    </div>
+                                    <div class="box3__link-img">
+                                        <img src="/web_project/img/p3.jpg" alt="">
+                                        <div class="box5__icon">
+                                            <div class="box5__icon-eye">
+                                                <a href="">Võ Tiến</a>
+                                                <span><i class="far fa-clock"></i>  1 ngày</span>
+                                            </div>
+                                            <p>Phim này đỉnh vc</p>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Cặp Bài Trùng</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p4.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Hữu Quyết</a>
+                                            <span><i class="far fa-clock"></i>  2 ngày</span>
+                                        </div>
+                                        <p>Good</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Phương Trình Tình Yêu</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p5.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Đỗ Hậu</a>
+                                            <span><i class="far fa-clock"></i>  5 ngày</span>
+                                        </div>
+                                        <p>Diễn viên xinh vãi</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Hình Bóng Của Tôi</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p6.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Xuân Thức</a>
+                                            <span><i class="far fa-clock"></i>  7 ngày</span>
+                                        </div>
+                                        <p>Được</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Nguyện Vọng Chí Mạng</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p7.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Huỳnh Đạt</a>
+                                            <span><i class="far fa-clock"></i>  5 ngày</span>
+                                        </div>
+                                        <p>Như qq</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Avatar 2</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p8.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Thành An</a>
+                                            <span><i class="far fa-clock"></i>  9 ngày</span>
+                                        </div>
+                                        <p> like</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Nhất Kiến Khuynh Tâm</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/p9.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Quốc Toàn</a>
+                                            <span><i class="far fa-clock"></i>  1 ngày</span>
+                                        </div>
+                                        <p>Đẹp giống người yêu mình :))</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box3__item none">
+                                <div class="name-film">
+                                    <i class="fas fa-film"></i>
+                                    <a href="">Kính Song Thành</a>
+                                </div>
+                                <div class="box3__link-img">
+                                    <img src="/web_project/img/Hinh-anh-dan-PC-khung-dep-me-hon.jpg" alt="">
+                                    <div class="box5__icon">
+                                        <div class="box5__icon-eye">
+                                            <a href="">Ngọc Phước</a>
+                                            <span><i class="far fa-clock"></i>  1 ngày</span>
+                                        </div>
+                                        <p>phim đỉnh đó</p>
+                                    </div>
+                                </div>
+                            </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <div class="footer__top">
+            <ul class="footer__top-list">
+                <li class="footer__top-item">
+                    <a href="">Anime Full</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Phim Mới</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Động Phim</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Phim Bất Hủ</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Phê Phim</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Mọt Phim</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">SubNhanh</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Full Phim</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">Mọt Chill</a>
+                </li>
+                <li class="footer__top-item">
+                    <a href="">PhimChill</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__center">
+            <img src="/web_project/img/logo.png" alt="">
+            <p>Copyright ® 2018 BiluTV ver 2.1 All Rights Reserved.</p>
+            <h4>biluu - xem phim mới full hd</h4>
+            <p class="p">Liên hệ qua mail: bilutv.org@gmail.com hoặc skype: bilutv.org@gmail.com</p>
+            <div class="footer__center-link">
+                <a href="">sitemap</a>
+                <a href="">contact</a>
+                <a href="">phim mới</a>
+            </div>
+        </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="app.js"></script>
+</body>
+</html>

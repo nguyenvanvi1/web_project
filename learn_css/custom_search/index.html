@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/front_end/youtube_project/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>CONTACTS</h2>
+            <input onkeyup="filter()" type="text" placeholder="Type to search" id="value" class="checkedbox">
+        </div>
+        <div class="content">
+            <div class="content__box">
+                <i class="fab fa-facebook-square"></i>
+                <span class="name">Archie Hansen</span>
+            </div>
+            <div class="content__box">
+                <i class="fab fa-facebook-messenger"></i>
+                <span class="name">Have shower Hansen</span>
+            </div>
+            <div class="content__box">
+                <i class="fab fa-twitter"></i>
+                <span class="name">Brush your teeth</span>
+            </div>
+            <div class="content__box">
+                <i class="fab fa-facebook-square"></i>
+                <span class="name">Do exercise</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function filter(){
+            var value,name,profile,i;
+            value =document.getElementById("value").value.toUpperCase();
+            profile=document.getElementsByClassName("content__box");
+            for(i=0;i<profile.length;i++){
+                name=profile[i].getElementsByClassName("name");
+                if(name[0].innerHTML.toUpperCase().indexOf(value)>-1){
+                    profile[i].style.display="flex";
+                }else{
+                    profile[i].style.display="none"
+                } 
+            }
+        }
+    </script>
+</body>
+</html>

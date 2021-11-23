@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    min-height: 100vh;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    position: relative;
+}
+.btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 20px;
+    cursor: pointer;
+    background: transparent;
+    /* background: linear-gradient(135deg,red,violet); */
+    font-size: 16px;
+    font-weight: 400;
+    z-index: 5;
+    border: none;
+}
+.overside{
+    top: 0;
+    left: 22px;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(135deg,red,orange);
+    border-radius: 20px;
+    transition: 0.3 ease;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    color: red;
+    background: #333;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon i:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    background: violet;
+}
+.input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    margin: 10px 50px;
+    border: 1px solid #999;     
+    border-top: none;
+    border-left: none;
+    
+}
+.checked{
+    margin-left: 50px;
+}
+.btn1{
+    width: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#login{
+    position:relative;
+    transition: 0.5s;
+}
+#register{
+    position: relative;
+    transform: translateY(-186px);
+    left: 252px;
+    transition: 0.5s;
+}
+.btn1{
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background: red;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
